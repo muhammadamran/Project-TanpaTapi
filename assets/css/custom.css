@@ -1,0 +1,15 @@
+li.nav-item .active {
+    font-weight: 900;
+}
+
+li.nav-item {
+    font-weight: 500;
+}
+
+.loader-oke {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font: 14px arial;
+}

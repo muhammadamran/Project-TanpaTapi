@@ -12,16 +12,13 @@
         </div>
         <div class="row">
             <div class="col text-center">
-                <p>&copy; 2017 <a href="https://uicookies.com/wrapbootstrap/instant">Instant</a>. All Rights Reserved. Designed by <a href="https://uicookies.com/">uiCookies</a></p>
+                <p>&copy; 2023 <a href="index.php"><?= $app ?></a>. All Rights Reserved. Designed by <a href="index.php"><?= $app ?></a></p>
             </div>
         </div>
     </div>
 </footer>
 <div id="pb_loader" class="show fullscreen">
-    <svg class="circular" width="48px" height="48px">
-        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#FDA04F" />
-    </svg>
+    <?= $loader ?>
 </div>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/popper.min.js"></script>

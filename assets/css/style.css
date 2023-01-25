@@ -1082,9 +1082,17 @@ a {
     .pb_navbar .navbar-toggler i {
       font-size: 30px; }
   .pb_navbar ul > li > a {
-    color: white !important; }
+    color: #333333 !important;
+    font-weight: 400;
+   }
     .pb_navbar ul > li > a.active {
-      color: white !important; }
+      color: #EBAA00 !important; 
+      font-weight: 900;
+  }
+      .pb_navbar ul > li > a:hover {
+        color: #EBAA00 !important; 
+        font-weight: 900;
+      }
   .pb_navbar ul > li.cta-btn > a > span {
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.5); }
